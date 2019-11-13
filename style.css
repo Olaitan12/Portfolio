@@ -61,7 +61,7 @@ body {
 
 #skills {
     background-image:
-        url(image/undraw_online_cv_qy9w.png);
+        url(./undraw_online_cv_qy9w.png);
     background-color: rgba(29, 28, 29, 0.986);
     background-blend-mode: overlay;
     background-size: cover;
@@ -83,7 +83,7 @@ body {
 }
 
 #education {
-    background-image: url(image/undraw_Graduation_ktn0.png);
+    background-image: url(./undraw_Graduation_ktn0.png);
     background-color: rgba(29, 28, 29, 0.986);
     background-blend-mode: overlay;
     background-size: cover;
@@ -122,7 +122,7 @@ body {
 
 #hobbies {
     background-image:
-        url(immage/undraw_skateboard_nmbb.png);
+        url(./undraw_skateboard_nmbb.png);
     background-color: rgba(29, 28, 29, 0.986);
     background-blend-mode: overlay;
     background-size: cover;
