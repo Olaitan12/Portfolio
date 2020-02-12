@@ -13,14 +13,15 @@ body {
 
 #welcome {
     height: 100vh;
-    background: url('https://res.cloudinary.com/djveurzal/image/upload/v1566511976/olaitan_xfwz1w.jpg');
+    background: url('https://res.cloudinary.com/djveurzal/image/upload/v1581509140/avataaars_n08f6v.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     flex-direction: column;
-    color: white;
+    color: black;
     justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #welcome .name-plate {
@@ -29,6 +30,7 @@ body {
     text-align: start;
     margin-top: 200px;
     padding-left: 20px;
+    font: -apple-system;
 }
 
 .name-plate h1 {
@@ -46,6 +48,7 @@ body {
 #skills,
 #hobbies,
 #education,
+#projects,
 #contact {
     height: 100vh;
     width: 100%;
@@ -117,6 +120,44 @@ body {
 }
 
 #education em {
+    color: rgb(255, 191, 191);
+}
+
+#projects {
+    background-image: url(Image/undraw_develop_app_kvt2.png);
+    background-color: rgba(29, 28, 29, 0.986);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#projects h1 {
+    font-size: 4em;
+    font-weight: 100;
+    line-height: 1em;
+    margin-bottom: 10px;
+
+}
+
+#projects ul {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+#projects ul li {
+    margin: 10px 0;
+}
+
+#projects hr {
+    border-color: rgba(206, 184, 184, 0.808);
+    width: 50%;
+    margin: auto;
+
+}
+
+#projects em {
     color: rgb(255, 191, 191);
 }
 
