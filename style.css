@@ -15,11 +15,12 @@ body {
     height: 100vh;
     background: url('https://res.cloudinary.com/djveurzal/image/upload/v1581509140/avataaars_n08f6v.png');
     background-size: cover;
+    background-color: black;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     flex-direction: column;
-    color: black;
+    color: white;
     justify-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -32,6 +33,7 @@ body {
     padding-left: 20px;
     font: -apple-system;
     font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .name-plate h1 {
@@ -39,12 +41,15 @@ body {
     font-weight: 200;
     line-height: 1em;
     padding: -5px;
-    
+    font-style: italic;
+
 }
 
 .name-plate ul li {
     width: 80%;
     font-size: 150px;
+    font-family: cursive;
+    font: inherit;
 }
 
 #skills,
